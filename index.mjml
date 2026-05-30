@@ -13,8 +13,13 @@
 
     <!-- Google Font -->
     <mj-font
-      name="Lora"
-      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+      name="Lato"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    />
+
+    <mj-font
+      name="Playfair"
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
     />
 
     <!--
@@ -61,7 +66,7 @@
     <mj-attributes>
       <!-- Entire Email -->
       <mj-all
-        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        font-family="'Lato', Georgia, 'Times New Roman', Arial, serif"
         color="#444444"
         line-height="1.5"
       />
@@ -139,6 +144,220 @@
   </mj-head>
 
   <mj-body width="600px" background-color="#f4f4f4">
-  
+    <mj-section padding="10px 15px" background-color="#f3ede7">
+      <mj-group>
+        <mj-column width="5%" vertical-align="middle">
+          <mj-image
+            fluid-on-mobile="false"
+            src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1780070061/email-portfolio/belora-ecommerce-email/icons/truck_kwit9k.png"
+            alt="shipping truck"
+            width="24px"
+          />
+        </mj-column>
+        <mj-column width="65%" vertical-align="middle">
+          <mj-text font-size="12px" padding="0px 0px 0px 5px" line-height="1.1">
+            Free shipping on orders over $75
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="30%" vertical-align="middle">
+          <mj-text align="right" line-height="1.1">
+            <a
+              href="#"
+              target="_blank"
+              style="
+                color: #111111;
+                text-decoration: underline;
+                font-size: 12px;
+              "
+              >View in browser</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- ============================================================ -->
+    <!-- LOGO                                                          -->
+    <!-- ============================================================ -->
+    <mj-section background-color="#ffffff">
+      <mj-column vertical-align="top">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1780070063/email-portfolio/belora-ecommerce-email/images/logo_nw0d0r.png"
+          alt="Ultimate Technology Limited"
+          href="https://taqwaitagency.com"
+          padding="16px 0"
+          width="150px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================================ -->
+    <!-- NAVBAR                                                        -->
+    <!-- ============================================================ -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text
+          css-class="dm-text-nav"
+          align="center"
+          font-size="12px"
+          color="#444444"
+          line-height="1.8"
+          font-weight="600"
+        >
+          <a
+            target="_blank"
+            href="https://mjml.io/getting-started?utm_source=email&utm_medium=newsletter&utm_campaign=summer_sale"
+            style="
+              color: #444444;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 12px;
+              padding: 5px 10px;
+            "
+            >New in</a
+          >
+          <a
+            href="https://mjml.io/try-it-live?utm_source=email&utm_medium=newsletter&utm_campaign=summer_sale"
+            target="_blank"
+            style="
+              color: #444444;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 12px;
+              padding: 5px 10px;
+            "
+            >Women</a
+          >
+          <a
+            href="https://mjml.io/templates?utm_source=email&utm_medium=newsletter&utm_campaign=summer_sale"
+            target="_blank"
+            style="
+              color: #444444;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 12px;
+              padding: 5px 10px;
+            "
+            >Men</a
+          >
+          <a
+            href="https://mjml.io/components?utm_source=email&utm_medium=newsletter&utm_campaign=summer_sale"
+            target="_blank"
+            style="
+              color: #444444;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 12px;
+              padding: 5px 10px;
+            "
+            >Accessories</a
+          >
+          <a
+            href="https://mjml.io/components?utm_source=email&utm_medium=newsletter&utm_campaign=summer_sale"
+            target="_blank"
+            style="
+              color: #444444;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 12px;
+              padding: 5px 10px;
+            "
+            >Sale</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--
+    mj spacer
+    For creating horizontal space between sections
+    -->
+    <mj-section css-class="dm-bg-section">
+      <mj-column>
+        <mj-spacer height="15px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================================ -->
+    <!-- HERO — dark bg image, no dark mode override needed            -->
+    <!-- ============================================================ -->
+    <mj-section padding="0px" background-color="#f5ede4">
+      <mj-column vertical-align="middle" padding="30px 15px">
+        <mj-text
+          text-transform="uppercase"
+          font-size="14px"
+          font-weight="600"
+          line-height="1.1"
+        >
+          Summer collection `24
+        </mj-text>
+        <mj-text
+          color="#111111"
+          font-family="Playfair"
+          align="left"
+          line-height="1"
+          padding="5px 0px 20px 0px"
+          text-transform="capitalize"
+          font-size="48px"
+          font-weight="700"
+        >
+          <span style="color: #111111"> Elevate your </span><br />
+          <span style="font-style: italic; color: #d6552e">Everyday</span>
+        </mj-text>
+
+        <mj-text
+          font-size="14px"
+          line-height="1.4"
+          font-weight="500"
+          color="#111111"
+          padding="0px 0px 30px"
+        >
+          <span>Discover breathable fabrics, modern</span><br />
+          <span>silhouettes and color that feel like</span><br />
+          <span>sunshines.</span>
+        </mj-text>
+        <!-- Hero button — amber accent -->
+        <mj-button
+          href="https://mjml.io/product"
+          font-size="12px"
+          font-weight="600"
+          letter-spacing="0.12em"
+          color="#ffffff"
+          background-color="#1a1a1a"
+          border-radius="0"
+          inner-padding="16px 36px"
+          align="left"
+          padding-bottom="0px"
+        >
+          SHOP THE <br />
+          COLLECTION &nbsp;→
+        </mj-button>
+      </mj-column>
+      <mj-column vertical-align="middle" padding="0px">
+        <mj-image
+          fluid-on-mobile="false"
+          src="https://res.cloudinary.com/ducp0w6mx/image/upload/v1780110726/email-portfolio/belora-ecommerce-email/images/banner-3_bc46x0.jpg"
+          alt="banner image"
+          align="left"
+          padding="0px 0px 0px 15px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- MJ Border -->
+        <mj-section>
+          <mj-column>
+            <mj-divider
+              border-style="solid"
+              border-color="#888888"
+              border-width="2px"
+              width="100%"
+              align="left"
+              padding="0px"
+            />
+          </mj-column>
+        </mj-section>
   </mj-body>
 </mjml>
